@@ -27,7 +27,7 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
 
 
-# Invalidate the CLoudfront cache
+# Invalidate the Cloudfront cache
 - name: Invalidaye CloudFront cache
   run: aws cloudfront create-invalidation --distribution-id $distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
   env: 
