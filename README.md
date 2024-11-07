@@ -1,14 +1,24 @@
-This repository contains the source code and deployment configuration for a personal portfolio website built using HTML, CSS, and JavaScript. 
-It is designed to present a professional profile for myself (Dahnish Chaudhri) and is structured to ensure ease of development and deployment, following 
-best practices for frontend web development. The project includes several essential files and directories for organizing the codebase. 
-The index.html file is the primary entry point, defining the structure and content that users see when they load the page. It includes sections 
-like a professional summary, work experience, education background, and a list of skills, and also incorporates a visitor counter to monitor site engagement. 
-For styling, the /css directory contains CSS files, with a main style.css file that manages the overall layout, color scheme, typography, and responsive design. 
-Additional CSS files may be included for component-specific or page-specific styling if needed. JavaScript files responsible for interactivity and dynamic 
-features are stored in the /js directory. The main JavaScript file, main.js, initializes the core functionality of the site, handling user interactions,
-while additional JavaScript files, such as visitor-counter.js, manage specific features like the visitor counter, dynamically tracking and displaying the
-number of site visits. Static assets like images, fonts, and icons are organized in an assets/ directory for easy access and management. The repository 
-also includes a deployment configuration file, deploy-frontend.yml, a YAML file that automates the deployment process. It contains commands and instructions
-to deploy the frontend code to a web server or cloud platform, streamlining the workflow for updates and maintenance. This setup supports a responsive, 
-user-friendly interface, making it suitable as part of a larger application or as a standalone portfolio site. It offers responsive design for accessibility
-across various devices, JavaScript-enabled interactivity, and automated deployment to facilitate continuous integration and delivery. 
+# Repository Structure
+- index.html - The main HTML file that serves as the entry point for the website. This file structures the content, including sections for the profile, experience, education, skills, and a visitor counter. The site introduces Dahnish Chaudhri as a business and information systems professional with skills in AWS, GitHub, and domain management using Route 53.
+
+- /css - A directory containing the CSS files responsible for the styling of the website. Common files in this directory include:
+  - style.css - Primary stylesheet defining the layout, color scheme, typography, and responsive design.
+  - Additional CSS files as necessary for component-specific or page-specific styling.
+
+- /js - A directory housing JavaScript files used for interactivity and dynamic features.
+  - main.js - Main JavaScript file that initializes website functionality and handles user interactions.
+  - visitor-counter.js - Manages the visitor counter, tracking and displaying the number of site visits dynamically.
+
+- assets/ - Contains static assets like images, fonts, and icons used across the site.
+
+- deploy-frontend.yml - A deployment configuration file (presumably a YAML file) for automating the deployment of the frontend code to a web server or cloud platform. This file includes the necessary steps and commands to ensure the frontend is properly built and deployed.
+
+
+# Purpose
+This frontend website repository is designed to provide a responsive and user-friendly web interface. It may be part of a larger application or serve as a standalone website, offering features such as:
+- Responsive design for accessibility on various devices.
+- Interactive elements enabled through JavaScript.
+- Deployment automation to streamline updates and maintenance.
+
+# Deployment
+The deploy-frontend.yml file configures the deployment pipeline. Refer to this file for detailed deployment instructions or integrate it with your CI/CD tool to automate the deployment process.
